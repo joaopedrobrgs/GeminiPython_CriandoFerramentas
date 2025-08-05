@@ -1,0 +1,53 @@
+# Ambientes Virtuais
+# Substitua "venv/" pelo nome da sua pasta de ambiente virtual, se for diferente
+venv/
+.venv/
+env/
+.env/
+
+# Arquivo de variáveis de ambiente
+.env
+*.env
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de distribuição / empacotamento
+build/
+dist/
+*.egg-info/
+*.egg
+sdist/
+develop-eggs/
+parts/
+wheels/
+pip-wheel-metadata/
+
+# Arquivos de configuração de IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de testes e cobertura de código
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Arquivos de bancos de dados locais
+*.sqlite3
+db.sqlite3
+
+# Arquivos de log
+*.log
+
+# Outros
+.DS_Store
+Thumbs.db
