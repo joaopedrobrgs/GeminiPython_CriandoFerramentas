@@ -22,7 +22,7 @@ configuracao_modelo = {
   "response_mime_type": "text/plain"
 }
 
-# Criando modelo de fato:
+# Criando modelo:
 llm = genai.GenerativeModel(
   model_name=MODELO_ESCOLHIDO,
   system_instruction=prompt_sistema,
